@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "hello,devops world! we are live on vercel"
+    return "CI/CD and Docker Pipeline is a massive success! V2"
 
 if __name__ == '__main__':
     # Grab the port Render assigns, or default to 5000 for local testing
